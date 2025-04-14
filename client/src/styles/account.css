@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #002a5c; /* Dark Blue */
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Account Section */
+.account-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+}
+
+/* Profile Picture */
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Text Styles */
+.account-info {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* or 'center' to align in the middle */
+    width: 300px; /* Adjust width as needed */
+    margin: auto; /* Centers the container */
+    
+}
+
+.button {
+    margin: 5px; /* Optional: space between buttons */
+}

@@ -1,0 +1,41 @@
+/* Card.css */
+.card {
+    background-color: #fff; /* White background for the card */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 16px; /* Padding inside the card */
+    margin: 16px; /* Margin around the card */
+    text-align: center; /* Center text */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Slightly round the image corners */
+}
+
+.card h2 {
+    font-size: 1.5rem; /* Font size for the title */
+    margin: 10px 0; /* Space above and below the title */
+}
+
+.card p {
+    font-size: 1rem; /* Font size for the description */
+    color: #666; /* Dark gray text color */
+}
+
+.placeholder {
+    background-color: #f0f0f0; /* Light gray background for placeholder */
+    height: 150px; /* Fixed height for placeholder */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    color: #999; /* Gray text color */
+    border-radius: 4px; /* Rounded corners */
+}

@@ -1,0 +1,25 @@
+.privacy-card {
+  display: flex;
+  justify-content: space-between; /* Spaces elements inside the card */
+  align-items: center; /* Aligns items in the center */
+  padding: 1rem; /* Adds inner spacing */
+  border: 1px solid #e0e0e0; /* Adds a light border */
+  border-radius: 12px; /* Rounds the card corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  width: 100%;
+  max-width: 400px; /* Limits the card width */
+}
+
+  .privacy-title {
+    font-weight: 600;
+  }
+  
+  .privacy-description {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .privacy-icon {
+    color: #6b7280;
+  }
+  

@@ -1,0 +1,17 @@
+/* Default Button Styles */
+.custom-button {
+    background-color: #D1D6DD;
+    color: #001031;
+    border: none;
+    padding: 20px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    height: 30px;
+}
+
+/* Hover Effect */
+.custom-button:hover {
+    background-color: #0061C8;
+}

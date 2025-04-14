@@ -1,0 +1,134 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+body {
+  background-color: #f3f4f6;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  padding: 8px 16px 8px 40px;
+  border-radius: 9999px;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6b7280;
+}
+
+.icons {
+  display: flex;
+  gap: 16px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.main {
+  padding: 16px;
+}
+
+.calendar-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.month-year {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-button i {
+  margin-left: 8px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  text-align: center;
+}
+
+.day-header {
+  font-weight: 600;
+}
+
+.day {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty {
+  background-color: #e5e7eb;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue {
+  color: #3b82f6;
+}
+
+.red {
+  color: #ef4444;
+}
+
+.green {
+  color: #10b981;
+}
+
+.yellow {
+  color: #f59e0b;
+}

@@ -1,0 +1,36 @@
+.community-container {
+  background-color: #f0f8ff; /* light blue background */
+  padding: 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.department-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  margin-top: 50px;
+}
+
+.department-card {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+}
+
+.department-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #dedede;
+}
+
+.department-card p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.department-card:hover{
+  color: #007bff;
+  transform: translateY(-10px);
+}

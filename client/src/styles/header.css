@@ -1,0 +1,130 @@
+/* Navbar/Header Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002F61;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 60px;
+  color: white;
+  z-index: 1000;
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+/* Logo Image */
+.logo-image {
+  height: 35px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Search Bar */
+.navbar-search {
+  display: flex;
+  align-items: left;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  height: 20px;
+  width: 400px;
+}
+
+.search-icon {
+  color: white;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+/* Input Field */
+.navbar-search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.navbar-search input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+
+/* Icons Section */
+.navbar-icons {
+  display: flex;
+  gap: 30px;
+  margin-right: 200px;
+}
+
+/* Icon Containers */
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon-container:hover{
+ color: #007bff;
+}
+
+
+/* Icons */
+.icon {
+  font-size: 20px;
+}
+
+/* Icon Titles */
+.icon-title {
+  font-size: 12px;
+  margin-top: 5px;
+  color: gray;
+  text-align: center;
+}
+
+/* Active Icon */
+.icon-container.active .icon {
+  color: #007bff;
+}
+
+.icon-container.active .icon-title {
+  color: #007bff;
+}
+body {
+  margin: 0; /* Remove default margin */
+  padding-top: 60px; /* Add padding equal to the height of the navbar */
+  padding-bottom: 60px;
+}
+/* header.css */
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.icon-title {
+  margin-top: 5px;
+  transition: text-decoration 0.3s ease;
+}
+
+.icon-container.active .icon-title {
+  text-decoration: underline; /* Underline for active icon */
+  font-weight: bold; /* Optional: make it bold */
+}

@@ -1,0 +1,116 @@
+/* Prevents scrolling */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Main container to align left and right sections */
+.login-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-color: #002F61;
+    padding: 0 10%;
+    gap: 5px;
+}
+
+/* Left section adjustments */
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    width: 50%;
+}
+
+/* Logo settings */
+.brand-logo {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+
+/* Subtitle below logo */
+.subtitle {
+    font-size: 1.125rem;
+    color: #d1d5db;
+    margin-top: 12px;
+}
+
+/* Right section (Create Account form) */
+.right-section {
+    width: 400px;
+    background: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #374151;
+    margin-bottom: 24px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input-field:focus {
+    border-color: #8b5cf6;
+}
+
+.login-button {
+    width: 100%;
+    background: #8b5cf6;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.login-button:hover {
+    background: #7c3aed;
+}
+
+.forgot-password {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    margin: 16px 0;
+    border: 0.5px solid #e5e7eb;
+}
+
+.create-account {
+    width: 100%;
+    background: #d1d5db;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.create-account:hover {
+    background: #9ca3af;
+}
